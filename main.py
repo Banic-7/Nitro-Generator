@@ -34,6 +34,8 @@ class Console():
         
         for _ in proxies:
             proxies_list += 1
+            
+proxies_file = 'config/proxies.txt'
         
         return int(proxies_list)
 
